@@ -8,16 +8,16 @@
        http://www.springframework.org/schema/context
        http://www.springframework.org/schema/context/spring-context-xsd
        http://www.springframework.org/schema/mvc
-       http://www.springframework.org/schema/mvc/spring-mvc-xsd
+       http://www.springframework.org/schema/mvc/spring-mvc-xsd">
        
+      
        
-       ">
        
       
        <!--  similar @Component-scan(basePackages="com.niit") -->
         
-       <context:component-scan base-package="com.niit.art_front.controller"/>
-       <context:component-scan base-package="com.niit.artbackend.daoimlp"/>
+       <context:component-scan base-package="Artcom.niit.org.ArtcraftMaterials"></context:component-scan>
+       <context:component-scan base-package="Artcom.niit.org.craftbackend.daoimlp"></context:component-scan>
       
        <!-- logical view name is 'home' -->
        <!-- /WEB-INF/views/home.jsp -->
@@ -27,5 +27,5 @@
        </bean>
       <!-- loading static resources -->
       <mvc:annotation-driven />
-  <mvc:resources mapping="/resources/**" location="/resources/" />
+  <mvc:resources mapping="/resources/**" location="/assests/" />
  </beans>

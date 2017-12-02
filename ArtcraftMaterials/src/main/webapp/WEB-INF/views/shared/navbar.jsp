@@ -15,7 +15,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="${contextroot}/about">About</a>
                     </li>
-                    <li><a href="${contextroot}/listproducts">view product</a>
+                    <li><a href="${contextroot}/show/all products">view product</a>
                     </li>
                     <li><a href="/${contextroot}contact">Contact</a>
                     </li>
