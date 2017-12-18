@@ -12,9 +12,7 @@
        
       
        
-       
-      
-       <!--  similar @Component-scan(basePackages="com.niit") -->
+        <!--  similar @Component-scan(basePackages="com.niit") -->
         
        <context:component-scan base-package="Artcom.niit.org.ArtcraftMaterials"></context:component-scan>
        <context:component-scan base-package="Artcom.niit.org.craftbackend.daoimlp"></context:component-scan>
